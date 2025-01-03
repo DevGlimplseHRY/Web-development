@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>Application Form</h1>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" />
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" />
+      <br />
+      <br />
+      <label for="date_of_birth">Date of birth:</label>
+      <input
+        type="text"
+        id="date_of_birth"
+        name="date_of_birth"
+        placeholder="mm/dd/yyyy"
+      />
+      <label for="age">Age:</label>
+      <input type="text" id="age:" name="age" />
+      <br />
+      <br />
+      <label for="gender">Gender</label>
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <label for="email_address">Email Address:</label>
+      <input
+        type="email"
+        id="email_address"
+        name="email_address"
+        placeholder="Enter email address"
+      />
+
+      <br />
+      <br />
+      <!-- <legend>Positions Available</legend> -->
+      <span>Positions Available</span>
+      <!-- <label for="positions available">Positions Available</label> -->
+      <input type="radio" id="junior_developer" name="developer" />
+      <label for="junior_developer">Junior Developer</label>
+      <input type="radio" id="mid-level-developer" name="developer" />
+      <label for="mid-level-developer">Mid-level-developer</label>
+      <input type="radio" id="senior-level-developer" name="developer" />
+      <label for="senior-level-developer">Senior-level-developer</label>
+      <br/>
+      <br/>
+      <span>Programming Languages:</span>
+      <input type="radio" id="java" name="language">
+      <label for="java">Java</label>
+      <input type="radio" id="javaScript" name="language">
+      <label for="javaScript">JavaScript</label>
+      <input type="radio" id="python" name="language">
+      <label for="python">Python</label>
+      <br/>
+      <br/>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <label for="confirm password">Confirm Password:</label>
+      <input type="password" id="confirm password">
+      <br/>
+      <br/>
+      <button>Submit</button>
+      <button>Reset</button>
+    </form>
+  </body>
+</html>
